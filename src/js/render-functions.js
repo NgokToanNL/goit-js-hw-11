@@ -48,7 +48,7 @@ export function createGallery(images) {
     const markup = images.map(createImageCard).join('');
     galleryContainer.insertAdjacentHTML('beforeend', markup);
 
-    lightbox.refresh;
+    lightbox.refresh();
 }
 
 export function clearGallery() {

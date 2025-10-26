@@ -18,7 +18,7 @@
     }
 }
 
-.loader .is-hidden {
+.loader.is-hidden {
     display: none;
 }
 

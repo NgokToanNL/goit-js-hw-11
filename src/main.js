@@ -9,7 +9,7 @@ import iziToast from 'izitoast';
 import "izitoast/dist/css/iziToast.min.css";
 
 const form = document.querySelector('.form');
-const searchInput = form.querySelector('.input[name="search-text"]')
+const searchInput = form.querySelector('input[name="search-text"]')
 
 async function onFormSubmit(event) {
     event.preventDefault();
